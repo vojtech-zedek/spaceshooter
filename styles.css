@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 body {
-    background-color: #201f1fc0;
+    background-color: #432d61;
 }
 
 
 canvas {
     position: absolute;
-    top: 100px;
+    top: 180px;
     left: 450px;
     background: transparent;
 }
@@ -22,16 +22,16 @@ canvas {
 }
 .score {
     position: absolute;
-    top: 102px;
-    left: 470px;
+    top: 10px;
+    left: 20px;
     color: #ce0101;
     font-family: 'Rock Salt', cursive;
     cursor: default;
 }
 .game-over {
     position: absolute;
-    top: 200px;
-    left: 650px;
+    top: 240px;
+    left: 640px;
     color: #e00f0f;
     font-family: 'Rock Salt', cursive;
     font-size: 30px;
@@ -49,8 +49,8 @@ canvas {
 }
 .loading {
     position: absolute;
-    top: 200px;
-    left: 650px;
+    top: 240px;
+    left: 640px;
     color: #d81919;
     font-family: 'Rock Salt', cursive;
     font-size: 30px;
