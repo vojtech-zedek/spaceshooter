@@ -1,7 +1,7 @@
 canvas {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 100px;
+    left: 450px;
     background: transparent;
 }
 #background {
@@ -12,4 +12,40 @@ canvas {
 }
 #ship {
     z-index: 0;
+}
+.score {
+    position: absolute;
+    top: 70px;
+    left: 470px;
+    color: #ce0101;
+    font-family: Helvetica, sans-serif;
+    cursor: default;
+}
+.game-over {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    color: #e00f0f;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    cursor: default;
+    display: none;
+}
+.game-over span {
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+}
+.game-over span:hover {
+    color: #FFD700;
+}
+.loading {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    color: #d81919;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    cursor: default;
 }
